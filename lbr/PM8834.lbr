@@ -1,0 +1,204 @@
+<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="SO08">
+<description>&lt;b&gt;Small Outline Package&lt;/b&gt; Fits JEDEC packages (narrow SOIC-8)</description>
+<wire x1="-2.362" y1="-1.803" x2="2.362" y2="-1.803" width="0.1524" layer="51"/>
+<wire x1="2.362" y1="-1.803" x2="2.362" y2="1.803" width="0.1524" layer="21"/>
+<wire x1="2.362" y1="1.803" x2="-2.362" y2="1.803" width="0.1524" layer="51"/>
+<wire x1="-2.362" y1="1.803" x2="-2.362" y2="-1.803" width="0.1524" layer="21"/>
+<circle x="-1.8034" y="-0.9906" radius="0.1436" width="0.2032" layer="21"/>
+<text x="-1.27091" y="-0.635457" size="0.406692" layer="27">&gt;VALUE</text>
+<text x="-1.27011" y="0" size="0.406434" layer="25">&gt;NAME</text>
+<rectangle x1="-2.08646" y1="-2.87524" x2="-1.7272" y2="-1.8542" layer="51"/>
+<rectangle x1="-0.81384" y1="-2.87387" x2="-0.4572" y2="-1.8542" layer="51"/>
+<rectangle x1="0.45743" y1="-2.87164" x2="0.8128" y2="-1.8542" layer="51"/>
+<rectangle x1="1.72886" y1="-2.87296" x2="2.0828" y2="-1.8542" layer="51"/>
+<rectangle x1="-2.0848" y1="1.85598" x2="-1.7272" y2="2.8702" layer="51"/>
+<rectangle x1="-0.81323" y1="1.85518" x2="-0.4572" y2="2.8702" layer="51"/>
+<rectangle x1="0.457605" y1="1.85584" x2="0.8128" y2="2.8702" layer="51"/>
+<rectangle x1="1.72943" y1="1.85659" x2="2.0828" y2="2.8702" layer="51"/>
+<smd name="1" x="-1.905" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="2" x="-0.635" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="3" x="0.635" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="4" x="1.905" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="5" x="1.905" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="6" x="0.635" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="7" x="-0.635" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="8" x="-1.905" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+</package>
+<package name="SO08N">
+<wire x1="2.159" y1="-1.8558" x2="2.54" y2="-1.3748" width="0.1524" layer="51" curve="90"/>
+<wire x1="-2.54" y1="1.4748" x2="-2.159" y2="1.8558" width="0.1524" layer="51" curve="-90"/>
+<wire x1="2.159" y1="1.8558" x2="2.54" y2="1.4748" width="0.1524" layer="51" curve="-90"/>
+<wire x1="-2.54" y1="-1.5748" x2="-2.159" y2="-1.8558" width="0.1524" layer="51" curve="90"/>
+<wire x1="-2.54" y1="0.508" x2="-2.54" y2="-0.508" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-2.54" y1="-1.5002" x2="2.54" y2="-1.5002" width="0.0508" layer="51"/>
+<wire x1="-2.159" y1="-1.8558" x2="2.159" y2="-1.8558" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="0.508" x2="-2.54" y2="-0.508" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-2.54" y1="1.4748" x2="-2.54" y2="0.508" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="1.4748" x2="-2.159" y2="1.8558" width="0.1524" layer="51" curve="-90"/>
+<wire x1="-2.54" y1="-1.5748" x2="-2.159" y2="-1.8558" width="0.1524" layer="51" curve="90"/>
+<wire x1="-2.54" y1="-0.508" x2="-2.54" y2="-1.5002" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="-1.5002" x2="-2.54" y2="-1.5748" width="0.1524" layer="51"/>
+<wire x1="2.159" y1="-1.8558" x2="2.54" y2="-1.3748" width="0.1524" layer="51" curve="90"/>
+<wire x1="2.54" y1="-1.3748" x2="2.54" y2="1.4748" width="0.1524" layer="51"/>
+<wire x1="2.159" y1="1.8558" x2="2.54" y2="1.4748" width="0.1524" layer="51" curve="-90"/>
+<wire x1="-2.54" y1="0.508" x2="-2.54" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="2.159" y1="1.8558" x2="-2.159" y2="1.8558" width="0.1524" layer="51"/>
+<text x="-1.59501" y="-0.985621" size="0.609984" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-1.00049" y="0" size="0.6099" layer="25" ratio="10">&gt;NAME</text>
+<rectangle x1="-2.15986" y1="-3.10004" x2="-1.651" y2="-1.9558" layer="51"/>
+<rectangle x1="-0.88985" y1="-3.10176" x2="-0.381" y2="-1.9558" layer="51"/>
+<rectangle x1="0.381052" y1="-3.07382" x2="0.889" y2="-1.9304" layer="51"/>
+<rectangle x1="1.6514" y1="-3.09955" x2="2.159" y2="-1.9558" layer="51"/>
+<rectangle x1="1.65252" y1="1.9576" x2="2.159" y2="3.0988" layer="51"/>
+<rectangle x1="0.381488" y1="1.95831" x2="0.889" y2="3.0988" layer="51"/>
+<rectangle x1="-0.890344" y1="1.95876" x2="-0.381" y2="3.0988" layer="51"/>
+<rectangle x1="-2.16099" y1="1.9576" x2="-1.651" y2="3.0988" layer="51"/>
+<smd name="1" x="-1.905" y="-2.9" dx="0.65" dy="1.5" layer="1"/>
+<smd name="2" x="-0.635" y="-2.9" dx="0.65" dy="1.5" layer="1"/>
+<smd name="3" x="0.635" y="-2.9" dx="0.65" dy="1.5" layer="1"/>
+<smd name="4" x="1.905" y="-2.9" dx="0.65" dy="1.5" layer="1"/>
+<smd name="5" x="1.905" y="2.9" dx="0.65" dy="1.5" layer="1" rot="R180"/>
+<smd name="6" x="0.635" y="2.9" dx="0.65" dy="1.5" layer="1" rot="R180"/>
+<smd name="7" x="-0.635" y="2.9" dx="0.65" dy="1.5" layer="1" rot="R180"/>
+<smd name="8" x="-1.905" y="2.9" dx="0.65" dy="1.5" layer="1" rot="R180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PM8834">
+<wire x1="-7.62" y1="15.24" x2="7.62" y2="15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="15.24" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="-7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
+<text x="-7.62249" y="15.7532" size="2.18511" layer="95">&gt;NAME</text>
+<text x="-7.63277" y="-18.0642" size="2.18806" layer="96">&gt;VALUE</text>
+<pin name="VCC" x="-10.16" y="12.7" length="short" direction="pwr"/>
+<pin name="GND" x="-10.16" y="-12.7" length="short" direction="pwr"/>
+<pin name="IN1" x="-10.16" y="7.62" length="short" direction="in"/>
+<pin name="IN2" x="-10.16" y="-2.54" length="short" direction="in"/>
+<pin name="OUT1" x="10.16" y="7.62" length="short" rot="R180"/>
+<pin name="OUT2" x="10.16" y="-7.62" length="short" rot="R180"/>
+<pin name="EN1" x="-10.16" y="2.54" length="short" direction="in"/>
+<pin name="EN2" x="-10.16" y="-7.62" length="short" direction="in"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PM8834" prefix="IC">
+<description>ST - PM8834 4A Dual, LowSide, PWM MOSFET Driver.
+
+&lt;p&gt;&lt;a href='http://www.st.com/stonline/products/literature/ds/15086/pm8834.pdf'&gt;http://www.st.com/stonline/products/literature/ds/15086/pm8834.pdf&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="PM8834" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-SO08" package="SO08">
+<connects>
+<connect gate="G$1" pin="EN1" pad="1"/>
+<connect gate="G$1" pin="EN2" pad="8"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="IN1" pad="2"/>
+<connect gate="G$1" pin="IN2" pad="4"/>
+<connect gate="G$1" pin="OUT1" pad="7"/>
+<connect gate="G$1" pin="OUT2" pad="5"/>
+<connect gate="G$1" pin="VCC" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Package" value="SOIC-8 STMicroelectronics"/>
+<attribute name="MP" value="PM8834"/>
+<attribute name="Availability" value="Unavailable"/>
+<attribute name="Price" value="None"/>
+<attribute name="MF" value="STMicroelectronics"/>
+<attribute name="Description" value="
+PM8834 Series 18 V 4 A 1.3 Ohm SMT Dual Low Side MOSFET Driver - SOIC-8
+"/>
+</technology>
+</technologies>
+</device>
+<device name="-SO08N" package="SO08N">
+<connects>
+<connect gate="G$1" pin="EN1" pad="1"/>
+<connect gate="G$1" pin="EN2" pad="8"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="IN1" pad="2"/>
+<connect gate="G$1" pin="IN2" pad="4"/>
+<connect gate="G$1" pin="OUT1" pad="7"/>
+<connect gate="G$1" pin="OUT2" pad="5"/>
+<connect gate="G$1" pin="VCC" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Package" value="SOIC-8 STMicroelectronics"/>
+<attribute name="MP" value="PM8834"/>
+<attribute name="Availability" value="Unavailable"/>
+<attribute name="Price" value="None"/>
+<attribute name="MF" value="STMicroelectronics"/>
+<attribute name="Description" value="
+PM8834 Series 18 V 4 A 1.3 Ohm SMT Dual Low Side MOSFET Driver - SOIC-8
+"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
