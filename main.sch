@@ -22195,6 +22195,12 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+12V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="+5V" urn="urn:adsk.eagle:symbol:26929/1" library_version="1">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
@@ -22227,6 +22233,19 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="+12V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+5V" urn="urn:adsk.eagle:component:26963/1" prefix="P+" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="+5V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -25954,235 +25973,6 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Sensors" urn="urn:adsk.eagle:library:534">
-<description>&lt;h3&gt;SparkFun Sensors&lt;/h3&gt;
-This library contains sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="DFN-6-3X3-SI7021" urn="urn:adsk.eagle:footprint:39886/1" library_version="1">
-<description>&lt;h3&gt;6-Pin DFN w/ Center Pad (3 x 3 mm) - Designed for Si7021&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://cdn.sparkfun.com/datasheets/Sensors/Weather/Si7021.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;
-&lt;li&gt;Pin Count: 6 (+ center pad)&lt;/li&gt;
-&lt;li&gt;Area: 3.0 x 3.0 x 1.21 mm&lt;/li&gt;
-&lt;li&gt;Pitch: 1.0 mm&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Devices Using:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;SI7021&lt;/li&gt;
-&lt;/ul&gt;</description>
-<smd name="NC@3" x="1.5" y="1" dx="0.5" dy="0.8" layer="1" rot="R270"/>
-<smd name="GND" x="1.5" y="0" dx="0.5" dy="0.8" layer="1" rot="R270"/>
-<smd name="DATA" x="1.5" y="-1" dx="0.5" dy="0.8" layer="1" rot="R270"/>
-<smd name="SCK" x="-1.5" y="-1" dx="0.5" dy="0.8" layer="1" rot="R270"/>
-<smd name="VDD" x="-1.5" y="0" dx="0.5" dy="0.8" layer="1" rot="R270"/>
-<smd name="NC@4" x="-1.5" y="1" dx="0.5" dy="0.8" layer="1" rot="R270"/>
-<smd name="7" x="0" y="0" dx="0.2" dy="0.2" layer="1"/>
-<circle x="1.778" y="-1.7272" radius="0.254" width="0" layer="21"/>
-<circle x="0" y="0" radius="0.331175" width="0.127" layer="51"/>
-<wire x1="-1.143" y1="-1.2192" x2="-1.143" y2="1.143" width="0.127" layer="51"/>
-<wire x1="-1.143" y1="1.143" x2="1.1938" y2="1.143" width="0.127" layer="51"/>
-<wire x1="1.1938" y1="1.143" x2="1.1938" y2="-0.762" width="0.127" layer="51"/>
-<wire x1="1.1938" y1="-0.762" x2="0.7112" y2="-1.2446" width="0.127" layer="51"/>
-<wire x1="0.7112" y1="-1.2446" x2="-1.143" y2="-1.2446" width="0.127" layer="51"/>
-<wire x1="-1.4986" y1="-1.4986" x2="1.4986" y2="-1.4986" width="0.2032" layer="21"/>
-<wire x1="-1.4986" y1="1.4986" x2="1.4986" y2="1.4986" width="0.2032" layer="21"/>
-<polygon width="0.127" layer="1">
-<vertex x="-0.7" y="1.25"/>
-<vertex x="0.75" y="1.25"/>
-<vertex x="0.75" y="-0.8"/>
-<vertex x="0.3" y="-1.25"/>
-<vertex x="-0.7" y="-1.25"/>
-</polygon>
-<polygon width="0.127" layer="31">
-<vertex x="-0.55" y="1.05"/>
-<vertex x="0.55" y="1.05"/>
-<vertex x="0.55" y="-0.65"/>
-<vertex x="0.1" y="-1.1"/>
-<vertex x="-0.55" y="-1.1"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="-0.775" y="1.325"/>
-<vertex x="-0.775" y="-1.3"/>
-<vertex x="0.375" y="-1.3"/>
-<vertex x="0.825" y="-0.85"/>
-<vertex x="0.825" y="1.325"/>
-</polygon>
-<text x="0" y="1.651" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.651" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
-<package name="TSOP572" urn="urn:adsk.eagle:footprint:39854/1" library_version="1">
-<description>&lt;h3&gt;TSOP572&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://www.vishay.com/docs/82434/tsop572.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;
-&lt;li&gt;Pin Count: 4&lt;/li&gt;
-&lt;li&gt;Area: 3.95 x 3.95 x 0.8 mm&lt;/li&gt;
-&lt;li&gt;Pitch: 3mm&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Devices Using:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;TSOP57238TT1&lt;/li&gt;
-&lt;/ul&gt;</description>
-<smd name="6" x="1.5" y="1.775" dx="0.8" dy="0.35" layer="1" rot="R90"/>
-<smd name="8" x="-1.5" y="1.775" dx="0.8" dy="0.35" layer="1" rot="R90"/>
-<smd name="1" x="-1.5" y="-1.775" dx="0.8" dy="0.35" layer="1" rot="R90"/>
-<smd name="5" x="1.5" y="-1.775" dx="0.8" dy="0.35" layer="1" rot="R90"/>
-<wire x1="1.975" y1="1.975" x2="-1.975" y2="1.975" width="0.127" layer="51"/>
-<wire x1="-1.975" y1="1.975" x2="-1.975" y2="-1.975" width="0.127" layer="51"/>
-<wire x1="-1.975" y1="-1.975" x2="1.975" y2="-1.975" width="0.127" layer="51"/>
-<wire x1="1.975" y1="-1.975" x2="1.975" y2="1.975" width="0.127" layer="51"/>
-<wire x1="2.0766" y1="1.975" x2="2.0766" y2="-1.975" width="0.2032" layer="21"/>
-<wire x1="-2.0766" y1="1.975" x2="-2.0766" y2="-1.975" width="0.2032" layer="21"/>
-<wire x1="1" y1="2.0766" x2="-1" y2="2.0766" width="0.2032" layer="21"/>
-<wire x1="1" y1="-2.0766" x2="-1" y2="-2.0766" width="0.2032" layer="21"/>
-<circle x="-1.5" y="-0.9" radius="0.22360625" width="0.127" layer="51"/>
-<circle x="-2.5" y="-1.7" radius="0.254" width="0" layer="21"/>
-<text x="-2.159" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="2.159" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="DFN-6-3X3-SI7021" urn="urn:adsk.eagle:package:39974/1" type="box" library_version="1">
-<description>6-Pin DFN w/ Center Pad (3 x 3 mm) - Designed for Si7021
-Datasheet
-Specifications:
-
-Pin Count: 6 (+ center pad)
-Area: 3.0 x 3.0 x 1.21 mm
-Pitch: 1.0 mm
-
-Devices Using:
-
-SI7021
-</description>
-<packageinstances>
-<packageinstance name="DFN-6-3X3-SI7021"/>
-</packageinstances>
-</package3d>
-<package3d name="TSOP572" urn="urn:adsk.eagle:package:39958/1" type="box" library_version="1">
-<description>TSOP572
-Datasheet
-Specifications:
-
-Pin Count: 4
-Area: 3.95 x 3.95 x 0.8 mm
-Pitch: 3mm
-
-Devices Using:
-
-TSOP57238TT1
-</description>
-<packageinstances>
-<packageinstance name="TSOP572"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="SI7021" urn="urn:adsk.eagle:symbol:39885/1" library_version="1">
-<description>&lt;h3&gt;Silicon Labs Si7021 I&lt;sup&gt;2&lt;/sup&gt;C Humidity and Temperature Sensor&lt;/h3&gt;
-&lt;p&gt;The Si7021 is a low-cost, easy-to-use, highly accurate, digital humidity and temperature sensor. This sensor is ideal for environmental sensing and data logging and perfect for build a weather stations or humidor control system. All you need are two lines for I2C communication, and you’ll have relative humidity readings and very accurate temperature readings as a bonus!&lt;/p&gt;</description>
-<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
-<pin name="SCK" x="10.16" y="0" visible="pin" length="short" direction="in" rot="R180"/>
-<pin name="DATA" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="GND" x="-10.16" y="0" visible="pin" length="short" direction="pwr"/>
-<pin name="VDD" x="-10.16" y="2.54" visible="pin" length="short" direction="pwr"/>
-<text x="-7.62" y="5.334" size="1.778" layer="95" font="vector">&gt;Name</text>
-<text x="-7.62" y="-2.794" size="1.778" layer="96" font="vector" align="top-left">&gt;Value</text>
-</symbol>
-<symbol name="TSOP57238TT1" urn="urn:adsk.eagle:symbol:39853/1" library_version="1">
-<description>&lt;h3&gt;Vishay TSOP572...TT1 (TSOP57238TT1) IR Receiver Module&lt;/h3&gt;
-&lt;p&gt;The  TSOP57...  series  are  miniaturized  SMD  IR  receiver  modules  for  infrared  remote  control  systems.  A  PIN  diode  and  a  preamplifier  are  assembled  on  a  PCB,  the  epoxy  package contains an IR filter. The demodulated output signal can be directly connected to a microprocessor for decoding.&lt;/p&gt;</description>
-<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
-<pin name="VS" x="-12.7" y="2.54" length="short"/>
-<pin name="GND1" x="-12.7" y="0" length="short"/>
-<pin name="OUT" x="12.7" y="2.54" length="short" rot="R180"/>
-<pin name="GND2" x="-12.7" y="-2.54" length="short"/>
-<text x="-10.16" y="5.334" size="1.778" layer="95" font="vector">&gt;Name</text>
-<text x="-10.16" y="-5.334" size="1.778" layer="96" font="vector" align="top-left">&gt;Value</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SI7021" urn="urn:adsk.eagle:component:40047/1" prefix="U" library_version="1">
-<description>&lt;h3&gt;Silicon Labs Si7021 I&lt;sup&gt;2&lt;/sup&gt;C Humidity and Temperature Sensor&lt;/h3&gt;
-&lt;p&gt;The Si7021 is a low-cost, easy-to-use, highly accurate, digital humidity and temperature sensor. This sensor is ideal for environmental sensing and data logging and perfect for build a weather stations or humidor control system. All you need are two lines for I2C communication, and you’ll have relative humidity readings and very accurate temperature readings as a bonus!&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cdn.sparkfun.com/datasheets/Sensors/Weather/Si7021.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;SparkFun Products&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13763"&gt;SparkFun Humidity and Temperature Sensor Breakout - Si7021&lt;/a&gt; (SEN-13763)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13794"&gt;SparkFun Blynk Board - ESP8266&lt;/a&gt; (WRL-13794)&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="SI7021" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DFN-6-3X3-SI7021">
-<connects>
-<connect gate="G$1" pin="DATA" pad="DATA"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="SCK" pad="SCK"/>
-<connect gate="G$1" pin="VDD" pad="VDD"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39974/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-13093"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TSOP57238TT1" urn="urn:adsk.eagle:component:40029/1" prefix="D" library_version="1">
-<description>&lt;h3&gt;Vishay TSOP572...TT1 (TSOP57238TT1) IR Receiver Module&lt;/h3&gt;
-&lt;p&gt;The  TSOP57...  series  are  miniaturized  SMD  IR  receiver  modules  for  infrared  remote  control  systems.  A  PIN  diode  and  a  preamplifier  are  assembled  on  a  PCB,  the  epoxy  package contains an IR filter. The demodulated output signal can be directly connected to a microprocessor for decoding.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.vishay.com/docs/82434/tsop572.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;SparkFun Products&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt; Not currently in a SparkFun Assembly
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="TSOP57238TT1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TSOP572">
-<connects>
-<connect gate="G$1" pin="GND1" pad="6"/>
-<connect gate="G$1" pin="GND2" pad="8"/>
-<connect gate="G$1" pin="OUT" pad="1"/>
-<connect gate="G$1" pin="VS" pad="5"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39958/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="COMP-11990"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">
 <packages>
 <package name="1X03" urn="urn:adsk.eagle:footprint:6240064/1" library_version="2">
@@ -26592,8 +26382,6 @@ TSOP57238TT1
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R16" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="X"/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U2" library="SparkFun-Sensors" library_urn="urn:adsk.eagle:library:534" deviceset="SI7021" device="" package3d_urn="urn:adsk.eagle:package:39974/1"/>
-<part name="D4" library="SparkFun-Sensors" library_urn="urn:adsk.eagle:library:534" deviceset="TSOP57238TT1" device="" package3d_urn="urn:adsk.eagle:package:39958/1"/>
 <part name="R17" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1K"/>
 <part name="R18" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1K"/>
 <part name="R19" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
@@ -26615,7 +26403,6 @@ TSOP57238TT1
 <part name="Q5" library="SparkFun" deviceset="MOSFET-NCHANNEL" device="SMD" value="BSS138"/>
 <part name="R23" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="R24" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
-<part name="P+15" library="SparkFun" deviceset="VCC" device="" value="HV"/>
 <part name="+3V13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:6240710/1"/>
@@ -26638,6 +26425,7 @@ TSOP57238TT1
 <part name="R30" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="P+12" library="SparkFun" deviceset="VCC" device="" value="HV"/>
 <part name="+3V16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -27025,9 +26813,6 @@ TSOP57238TT1
 <attribute name="NAME" x="194.5386" y="-19.05" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="189.738" y="-19.05" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="P+15" gate="1" x="193.04" y="-12.7" smashed="yes">
-<attribute name="VALUE" x="192.024" y="-9.144" size="1.778" layer="96"/>
-</instance>
 <instance part="+3V13" gate="G$1" x="177.8" y="-10.16" smashed="yes">
 <attribute name="VALUE" x="175.26" y="-15.24" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -27105,6 +26890,9 @@ TSOP57238TT1
 </instance>
 <instance part="+3V16" gate="G$1" x="289.56" y="-10.16" smashed="yes">
 <attribute name="VALUE" x="287.02" y="-15.24" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+13" gate="1" x="193.04" y="-10.16" smashed="yes">
+<attribute name="VALUE" x="190.5" y="-15.24" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -27444,17 +27232,6 @@ TSOP57238TT1
 </net>
 <net name="HV" class="0">
 <segment>
-<wire x1="193.04" y1="-17.78" x2="193.04" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="R24" gate="G$1" pin="1"/>
-<pinref part="P+15" gate="1" pin="VCC"/>
-<pinref part="JP6" gate="A" pin="1"/>
-<wire x1="193.04" y1="-15.24" x2="193.04" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="-27.94" x2="198.12" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="-27.94" x2="198.12" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="-15.24" x2="193.04" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="193.04" y="-15.24"/>
-</segment>
-<segment>
 <wire x1="231.14" y1="-17.78" x2="231.14" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="R26" gate="G$1" pin="1"/>
 <pinref part="P+10" gate="1" pin="VCC"/>
@@ -27563,6 +27340,19 @@ TSOP57238TT1
 <pinref part="Q5" gate="G$1" pin="S"/>
 <pinref part="R23" gate="G$1" pin="2"/>
 <label x="172.72" y="-30.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="+5V" class="0">
+<segment>
+<wire x1="193.04" y1="-17.78" x2="193.04" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="R24" gate="G$1" pin="1"/>
+<pinref part="JP6" gate="A" pin="1"/>
+<wire x1="203.2" y1="-27.94" x2="198.12" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="-27.94" x2="198.12" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="-15.24" x2="193.04" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="P+13" gate="1" pin="+5V"/>
+<wire x1="193.04" y1="-15.24" x2="193.04" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="193.04" y="-15.24"/>
 </segment>
 </net>
 </nets>
@@ -27868,14 +27658,6 @@ TSOP57238TT1
 </instance>
 <instance part="+3V6" gate="G$1" x="78.74" y="66.04" smashed="yes">
 <attribute name="VALUE" x="76.2" y="60.96" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="U2" gate="G$1" x="124.46" y="50.8" smashed="yes">
-<attribute name="NAME" x="116.84" y="56.134" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="116.84" y="48.006" size="1.778" layer="96" font="vector" align="top-left"/>
-</instance>
-<instance part="D4" gate="G$1" x="129.54" y="33.02" smashed="yes">
-<attribute name="NAME" x="119.38" y="38.354" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="119.38" y="27.686" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 </instances>
 <busses>
