@@ -25529,64 +25529,6 @@ Source: Fairchild .. BAT54.pdf</description>
 <description>&lt;b&gt;Phoenix Connectors&lt;/b&gt; Grid 3.50 mm&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="1751251" urn="urn:adsk.eagle:footprint:9372/1" library_version="1">
-<description>&lt;b&gt;MKDS 1/ 3-3,5&lt;/b&gt; Printklemme&lt;p&gt;
-Nennstrom: 10 A&lt;br&gt;
-Bemessungsspannung: 160 V&lt;br&gt;
-Raster: 3,5 mm&lt;br&gt;
-Polzahl: 3&lt;br&gt;
-Montageart: Löten&lt;br&gt;
-Anschlussart: Schraubanschluss&lt;br&gt;
-Anschlussrichtung vom Leiter zur Platine: 0°&lt;br&gt;
-Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
-<wire x1="-5.5" y1="3.65" x2="5.5" y2="3.65" width="0.1016" layer="21"/>
-<wire x1="-5.5" y1="3.65" x2="-5.5" y2="1.9123" width="0.1016" layer="21"/>
-<wire x1="5.5" y1="-2.0993" x2="-5.5" y2="-2.0993" width="0.1016" layer="21"/>
-<wire x1="5.5" y1="-1.6163" x2="5.5" y2="1.4367" width="0.1016" layer="21"/>
-<wire x1="5.5" y1="-2.0993" x2="5.5" y2="-2.911" width="0.1016" layer="21"/>
-<wire x1="5.5" y1="-1.6163" x2="5.5" y2="-2.0993" width="0.1016" layer="21"/>
-<wire x1="-5.5" y1="1.9123" x2="-5.5" y2="1.4367" width="0.1016" layer="21"/>
-<wire x1="-5.5" y1="1.9123" x2="5.5" y2="1.9123" width="0.1016" layer="21"/>
-<wire x1="5.5" y1="1.4367" x2="5.5" y2="1.9123" width="0.1016" layer="21"/>
-<wire x1="-5.5" y1="-1.6163" x2="-5.5" y2="1.4367" width="0.1016" layer="21"/>
-<wire x1="5.5" y1="1.4367" x2="-5.5" y2="1.4367" width="0.1016" layer="21"/>
-<wire x1="-5.5" y1="-1.6163" x2="5.5" y2="-1.6163" width="0.1016" layer="21"/>
-<wire x1="5.5" y1="3.65" x2="5.5" y2="1.9123" width="0.1016" layer="21"/>
-<wire x1="-5.5" y1="-1.6163" x2="-5.5" y2="-2.0993" width="0.1016" layer="21"/>
-<wire x1="-5.5" y1="-2.0993" x2="-5.5" y2="-2.911" width="0.1016" layer="21"/>
-<wire x1="-4.706" y1="-0.811" x2="-2.789" y2="1.106" width="0.1016" layer="51"/>
-<wire x1="5.5" y1="-2.911" x2="-5.5" y2="-2.911" width="0.1016" layer="21"/>
-<wire x1="-5.5" y1="-3.65" x2="5.5" y2="-3.65" width="0.1016" layer="21"/>
-<wire x1="5.5" y1="-3.35" x2="5.5" y2="-3.65" width="0.1016" layer="21"/>
-<wire x1="-5.5" y1="-3.35" x2="5.5" y2="-3.35" width="0.1016" layer="21"/>
-<wire x1="-5.5" y1="-3.35" x2="-5.5" y2="-3.65" width="0.1016" layer="21"/>
-<wire x1="-5.5" y1="-2.911" x2="-5.5" y2="-3.35" width="0.1016" layer="21"/>
-<wire x1="5.5" y1="-2.911" x2="5.5" y2="-3.35" width="0.1016" layer="21"/>
-<wire x1="-2.294" y1="0.611" x2="-2.3" y2="0.605" width="0.1016" layer="21"/>
-<wire x1="-2.3" y1="0.605" x2="-4.211" y2="-1.306" width="0.1016" layer="51"/>
-<wire x1="-1.206" y1="-0.811" x2="0.711" y2="1.106" width="0.1016" layer="51"/>
-<wire x1="1.206" y1="0.611" x2="1.2" y2="0.605" width="0.1016" layer="21"/>
-<wire x1="1.2" y1="0.605" x2="-0.711" y2="-1.306" width="0.1016" layer="51"/>
-<wire x1="2.294" y1="-0.811" x2="4.211" y2="1.106" width="0.1016" layer="51"/>
-<wire x1="4.706" y1="0.611" x2="4.7" y2="0.605" width="0.1016" layer="21"/>
-<wire x1="4.7" y1="0.605" x2="2.789" y2="-1.306" width="0.1016" layer="51"/>
-<circle x="-3.5" y="-0.1" radius="1.45" width="0.1016" layer="21"/>
-<circle x="0" y="-0.1" radius="1.45" width="0.1016" layer="21"/>
-<circle x="3.5" y="-0.1" radius="1.45" width="0.1016" layer="21"/>
-<pad name="1" x="-3.5" y="-0.1" drill="1.1" diameter="1.7" rot="R90"/>
-<pad name="2" x="0" y="-0.1" drill="1.1" diameter="1.7" rot="R90"/>
-<pad name="3" x="3.5" y="-0.1" drill="1.1" diameter="1.7" rot="R90"/>
-<text x="-3.95" y="2.2225" size="1.27" layer="21" font="vector">1</text>
-<text x="-0.4575" y="2.2225" size="1.27" layer="21" font="vector">2</text>
-<text x="3.035" y="2.2225" size="1.27" layer="21" font="vector">3</text>
-<text x="-5.855" y="-2.8575" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="-3.8025" y="4.1275" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.1016" layer="21">
-<vertex x="-4.9025" y="-2.8575"/>
-<vertex x="-5.22" y="-2.2225"/>
-<vertex x="-4.585" y="-2.2225"/>
-</polygon>
-</package>
 <package name="1751277" urn="urn:adsk.eagle:footprint:9374/1" library_version="1">
 <description>&lt;b&gt;MKDS 1/ 5-3,5&lt;/b&gt; Printklemme&lt;p&gt;
 Nennstrom: 10 A&lt;br&gt;
@@ -25709,22 +25651,84 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <vertex x="-2.835" y="-2.2225"/>
 </polygon>
 </package>
+<package name="1751280" urn="urn:adsk.eagle:footprint:9375/1" library_version="1">
+<description>&lt;b&gt;MKDS 1/ 6-3,5&lt;/b&gt; Printklemme&lt;p&gt;
+Nennstrom: 10 A&lt;br&gt;
+Bemessungsspannung: 160 V&lt;br&gt;
+Raster: 3,5 mm&lt;br&gt;
+Polzahl: 6&lt;br&gt;
+Montageart: Löten&lt;br&gt;
+Anschlussart: Schraubanschluss&lt;br&gt;
+Anschlussrichtung vom Leiter zur Platine: 0°&lt;br&gt;
+Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
+<wire x1="-10.75" y1="3.65" x2="10.75" y2="3.65" width="0.1016" layer="21"/>
+<wire x1="-10.75" y1="3.65" x2="-10.75" y2="1.9123" width="0.1016" layer="21"/>
+<wire x1="10.75" y1="-2.0993" x2="-10.75" y2="-2.0993" width="0.1016" layer="21"/>
+<wire x1="10.75" y1="-1.6163" x2="10.75" y2="1.4367" width="0.1016" layer="21"/>
+<wire x1="10.75" y1="-2.0993" x2="10.75" y2="-2.911" width="0.1016" layer="21"/>
+<wire x1="10.75" y1="-1.6163" x2="10.75" y2="-2.0993" width="0.1016" layer="21"/>
+<wire x1="-10.75" y1="1.9123" x2="-10.75" y2="1.4367" width="0.1016" layer="21"/>
+<wire x1="-10.75" y1="1.9123" x2="10.75" y2="1.9123" width="0.1016" layer="21"/>
+<wire x1="10.75" y1="1.4367" x2="10.75" y2="1.9123" width="0.1016" layer="21"/>
+<wire x1="-10.75" y1="-1.6163" x2="-10.75" y2="1.4367" width="0.1016" layer="21"/>
+<wire x1="10.75" y1="1.4367" x2="-10.75" y2="1.4367" width="0.1016" layer="21"/>
+<wire x1="-10.75" y1="-1.6163" x2="10.75" y2="-1.6163" width="0.1016" layer="21"/>
+<wire x1="10.75" y1="3.65" x2="10.75" y2="1.9123" width="0.1016" layer="21"/>
+<wire x1="-10.75" y1="-1.6163" x2="-10.75" y2="-2.0993" width="0.1016" layer="21"/>
+<wire x1="-10.75" y1="-2.0993" x2="-10.75" y2="-2.911" width="0.1016" layer="21"/>
+<wire x1="-9.956" y1="-0.811" x2="-8.039" y2="1.106" width="0.1016" layer="51"/>
+<wire x1="10.75" y1="-2.911" x2="-10.75" y2="-2.911" width="0.1016" layer="21"/>
+<wire x1="-10.75" y1="-3.65" x2="10.75" y2="-3.65" width="0.1016" layer="21"/>
+<wire x1="10.75" y1="-3.35" x2="10.75" y2="-3.65" width="0.1016" layer="21"/>
+<wire x1="-10.75" y1="-3.35" x2="10.75" y2="-3.35" width="0.1016" layer="21"/>
+<wire x1="-10.75" y1="-3.35" x2="-10.75" y2="-3.65" width="0.1016" layer="21"/>
+<wire x1="-10.75" y1="-2.911" x2="-10.75" y2="-3.35" width="0.1016" layer="21"/>
+<wire x1="10.75" y1="-2.911" x2="10.75" y2="-3.35" width="0.1016" layer="21"/>
+<wire x1="-7.544" y1="0.611" x2="-7.55" y2="0.605" width="0.1016" layer="21"/>
+<wire x1="-7.55" y1="0.605" x2="-9.461" y2="-1.306" width="0.1016" layer="51"/>
+<wire x1="-6.456" y1="-0.811" x2="-4.539" y2="1.106" width="0.1016" layer="51"/>
+<wire x1="-4.044" y1="0.611" x2="-4.05" y2="0.605" width="0.1016" layer="21"/>
+<wire x1="-4.05" y1="0.605" x2="-5.961" y2="-1.306" width="0.1016" layer="51"/>
+<wire x1="-2.956" y1="-0.811" x2="-1.039" y2="1.106" width="0.1016" layer="51"/>
+<wire x1="-0.544" y1="0.611" x2="-0.55" y2="0.605" width="0.1016" layer="21"/>
+<wire x1="-0.55" y1="0.605" x2="-2.461" y2="-1.306" width="0.1016" layer="51"/>
+<wire x1="0.544" y1="-0.811" x2="2.461" y2="1.106" width="0.1016" layer="51"/>
+<wire x1="2.956" y1="0.611" x2="2.95" y2="0.605" width="0.1016" layer="21"/>
+<wire x1="2.95" y1="0.605" x2="1.039" y2="-1.306" width="0.1016" layer="51"/>
+<wire x1="4.044" y1="-0.811" x2="5.961" y2="1.106" width="0.1016" layer="51"/>
+<wire x1="6.456" y1="0.611" x2="6.45" y2="0.605" width="0.1016" layer="21"/>
+<wire x1="6.45" y1="0.605" x2="4.539" y2="-1.306" width="0.1016" layer="51"/>
+<wire x1="7.544" y1="-0.811" x2="9.461" y2="1.106" width="0.1016" layer="51"/>
+<wire x1="9.956" y1="0.611" x2="9.95" y2="0.605" width="0.1016" layer="21"/>
+<wire x1="9.95" y1="0.605" x2="8.039" y2="-1.306" width="0.1016" layer="51"/>
+<circle x="-8.75" y="-0.1" radius="1.45" width="0.1016" layer="21"/>
+<circle x="-5.25" y="-0.1" radius="1.45" width="0.1016" layer="21"/>
+<circle x="-1.75" y="-0.1" radius="1.45" width="0.1016" layer="21"/>
+<circle x="1.75" y="-0.1" radius="1.45" width="0.1016" layer="21"/>
+<circle x="5.25" y="-0.1" radius="1.45" width="0.1016" layer="21"/>
+<circle x="8.75" y="-0.1" radius="1.45" width="0.1016" layer="21"/>
+<pad name="1" x="-8.75" y="-0.1" drill="1.1" diameter="1.7" rot="R90"/>
+<pad name="2" x="-5.25" y="-0.1" drill="1.1" diameter="1.7" rot="R90"/>
+<pad name="3" x="-1.75" y="-0.1" drill="1.1" diameter="1.7" rot="R90"/>
+<pad name="4" x="1.75" y="-0.1" drill="1.1" diameter="1.7" rot="R90"/>
+<pad name="5" x="5.25" y="-0.1" drill="1.1" diameter="1.7" rot="R90"/>
+<pad name="6" x="8.75" y="-0.1" drill="1.1" diameter="1.7" rot="R90"/>
+<text x="-9.2" y="2.2225" size="1.27" layer="21" font="vector">1</text>
+<text x="-5.7075" y="2.2225" size="1.27" layer="21" font="vector">2</text>
+<text x="-2.215" y="2.2225" size="1.27" layer="21" font="vector">3</text>
+<text x="1.2775" y="2.2225" size="1.27" layer="21" font="vector">4</text>
+<text x="4.77" y="2.2225" size="1.27" layer="21" font="vector">5</text>
+<text x="8.2625" y="2.2225" size="1.27" layer="21" font="vector">6</text>
+<text x="-11.105" y="-2.8575" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-3.8025" y="4.1275" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1016" layer="21">
+<vertex x="-10.1525" y="-2.8575"/>
+<vertex x="-10.47" y="-2.2225"/>
+<vertex x="-9.835" y="-2.2225"/>
+</polygon>
+</package>
 </packages>
 <packages3d>
-<package3d name="1751251" urn="urn:adsk.eagle:package:9394/1" type="box" library_version="1">
-<description>MKDS 1/ 3-3,5 Printklemme
-Nennstrom: 10 A
-Bemessungsspannung: 160 V
-Raster: 3,5 mm
-Polzahl: 3
-Montageart: Löten
-Anschlussart: Schraubanschluss
-Anschlussrichtung vom Leiter zur Platine: 0°
-Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
-<packageinstances>
-<packageinstance name="1751251"/>
-</packageinstances>
-</package3d>
 <package3d name="1751277" urn="urn:adsk.eagle:package:9396/1" type="box" library_version="1">
 <description>MKDS 1/ 5-3,5 Printklemme
 Nennstrom: 10 A
@@ -25753,6 +25757,20 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <packageinstance name="1751248"/>
 </packageinstances>
 </package3d>
+<package3d name="1751280" urn="urn:adsk.eagle:package:9436/1" type="box" library_version="1">
+<description>MKDS 1/ 6-3,5 Printklemme
+Nennstrom: 10 A
+Bemessungsspannung: 160 V
+Raster: 3,5 mm
+Polzahl: 6
+Montageart: Löten
+Anschlussart: Schraubanschluss
+Anschlussrichtung vom Leiter zur Platine: 0°
+Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
+<packageinstances>
+<packageinstance name="1751280"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="SCHRAUBKLEMME" urn="urn:adsk.eagle:symbol:9370/1" library_version="1">
@@ -25767,42 +25785,6 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1751251" urn="urn:adsk.eagle:component:9413/1" prefix="X" library_version="1">
-<description>&lt;b&gt;MKDS 1/ 3-3,5&lt;/b&gt; Printklemme&lt;p&gt;
-Nennstrom: 10 A&lt;br&gt;
-Bemessungsspannung: 160 V&lt;br&gt;
-Raster: 3,5 mm&lt;br&gt;
-Polzahl: 3&lt;br&gt;
-Montageart: Löten&lt;br&gt;
-Anschlussart: Schraubanschluss&lt;br&gt;
-Anschlussrichtung vom Leiter zur Platine: 0°&lt;br&gt;
-Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
-<gates>
-<gate name="-1" symbol="SCHRAUBKLEMME" x="0" y="0" addlevel="always"/>
-<gate name="-2" symbol="SCHRAUBKLEMME" x="0" y="-7.62" addlevel="always"/>
-<gate name="-3" symbol="SCHRAUBKLEMME" x="0" y="-15.24" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="1751251">
-<connects>
-<connect gate="-1" pin="K" pad="1"/>
-<connect gate="-2" pin="K" pad="2"/>
-<connect gate="-3" pin="K" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9394/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="1751277" urn="urn:adsk.eagle:component:9414/1" prefix="X" library_version="1">
 <description>&lt;b&gt;MKDS 1/ 5-3,5&lt;/b&gt; Printklemme&lt;p&gt;
 Nennstrom: 10 A&lt;br&gt;
@@ -25872,6 +25854,48 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1751280" urn="urn:adsk.eagle:component:9439/1" prefix="X" library_version="1">
+<description>&lt;b&gt;MKDS 1/ 6-3,5&lt;/b&gt; Printklemme&lt;p&gt;
+Nennstrom: 10 A&lt;br&gt;
+Bemessungsspannung: 160 V&lt;br&gt;
+Raster: 3,5 mm&lt;br&gt;
+Polzahl: 6&lt;br&gt;
+Montageart: Löten&lt;br&gt;
+Anschlussart: Schraubanschluss&lt;br&gt;
+Anschlussrichtung vom Leiter zur Platine: 0°&lt;br&gt;
+Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
+<gates>
+<gate name="-1" symbol="SCHRAUBKLEMME" x="0" y="0" addlevel="always"/>
+<gate name="-2" symbol="SCHRAUBKLEMME" x="0" y="-7.62" addlevel="always"/>
+<gate name="-3" symbol="SCHRAUBKLEMME" x="0" y="-15.24" addlevel="always"/>
+<gate name="-4" symbol="SCHRAUBKLEMME" x="0" y="-22.86" addlevel="always"/>
+<gate name="-5" symbol="SCHRAUBKLEMME" x="0" y="-30.48" addlevel="always"/>
+<gate name="-6" symbol="SCHRAUBKLEMME" x="0" y="-38.1" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="1751280">
+<connects>
+<connect gate="-1" pin="K" pad="1"/>
+<connect gate="-2" pin="K" pad="2"/>
+<connect gate="-3" pin="K" pad="3"/>
+<connect gate="-4" pin="K" pad="4"/>
+<connect gate="-5" pin="K" pad="5"/>
+<connect gate="-6" pin="K" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9436/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="1751280" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="27R1765" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -26233,192 +26257,6 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <attribute name="PACKAGE" value="D2PAK Infineon"/>
 <attribute name="PRICE" value="None"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="pinhead" urn="urn:adsk.eagle:library:325">
-<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="1X06" urn="urn:adsk.eagle:footprint:22361/1" library_version="3">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="0.635" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="4.445" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="1.27" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="0.635" x2="5.08" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-0.635" x2="4.445" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="-1.27" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="0.635" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-6.985" y1="1.27" x2="-5.715" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="1.27" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="0.635" x2="-5.08" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-0.635" x2="-5.715" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="0.635" x2="-4.445" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="1.27" x2="-3.175" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="-1.27" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="-1.27" x2="-5.08" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="0.635" x2="-7.62" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-6.985" y1="1.27" x2="-7.62" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="-0.635" x2="-6.985" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="-1.27" x2="-6.985" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="5.715" y1="1.27" x2="6.985" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="1.27" x2="7.62" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="0.635" x2="7.62" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="-0.635" x2="6.985" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="5.715" y1="1.27" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-0.635" x2="5.715" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="-1.27" x2="5.715" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="1" x="-6.35" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="4" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="5" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="6" x="6.35" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="-7.6962" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-7.62" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
-<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
-<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
-<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
-<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
-</package>
-<package name="1X06/90" urn="urn:adsk.eagle:footprint:22362/1" library_version="3">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-7.62" y1="-1.905" x2="-5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-1.905" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="0.635" x2="-7.62" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="0.635" x2="-7.62" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-6.35" y1="6.985" x2="-6.35" y2="1.27" width="0.762" layer="21"/>
-<wire x1="-5.08" y1="-1.905" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="0.635" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="6.985" x2="-3.81" y2="1.27" width="0.762" layer="21"/>
-<wire x1="-2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="0" y1="-1.905" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="6.985" x2="-1.27" y2="1.27" width="0.762" layer="21"/>
-<wire x1="0" y1="-1.905" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="6.985" x2="1.27" y2="1.27" width="0.762" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-1.905" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="0.635" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="6.985" x2="3.81" y2="1.27" width="0.762" layer="21"/>
-<wire x1="5.08" y1="-1.905" x2="7.62" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="-1.905" x2="7.62" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="0.635" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="6.35" y1="6.985" x2="6.35" y2="1.27" width="0.762" layer="21"/>
-<pad name="1" x="-6.35" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="-3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="-1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="4" x="1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="5" x="3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="6" x="6.35" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<text x="-8.255" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="9.525" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-6.731" y1="0.635" x2="-5.969" y2="1.143" layer="21"/>
-<rectangle x1="-4.191" y1="0.635" x2="-3.429" y2="1.143" layer="21"/>
-<rectangle x1="-1.651" y1="0.635" x2="-0.889" y2="1.143" layer="21"/>
-<rectangle x1="0.889" y1="0.635" x2="1.651" y2="1.143" layer="21"/>
-<rectangle x1="3.429" y1="0.635" x2="4.191" y2="1.143" layer="21"/>
-<rectangle x1="5.969" y1="0.635" x2="6.731" y2="1.143" layer="21"/>
-<rectangle x1="-6.731" y1="-2.921" x2="-5.969" y2="-1.905" layer="21"/>
-<rectangle x1="-4.191" y1="-2.921" x2="-3.429" y2="-1.905" layer="21"/>
-<rectangle x1="-1.651" y1="-2.921" x2="-0.889" y2="-1.905" layer="21"/>
-<rectangle x1="0.889" y1="-2.921" x2="1.651" y2="-1.905" layer="21"/>
-<rectangle x1="3.429" y1="-2.921" x2="4.191" y2="-1.905" layer="21"/>
-<rectangle x1="5.969" y1="-2.921" x2="6.731" y2="-1.905" layer="21"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="1X06" urn="urn:adsk.eagle:package:22472/2" type="model" library_version="3">
-<description>PIN HEADER</description>
-<packageinstances>
-<packageinstance name="1X06"/>
-</packageinstances>
-</package3d>
-<package3d name="1X06/90" urn="urn:adsk.eagle:package:22475/2" type="model" library_version="3">
-<description>PIN HEADER</description>
-<packageinstances>
-<packageinstance name="1X06/90"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="PINHD6" urn="urn:adsk.eagle:symbol:22360/1" library_version="3">
-<wire x1="-6.35" y1="-7.62" x2="1.27" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-7.62" x2="1.27" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="10.16" x2="-6.35" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="-6.35" y1="10.16" x2="-6.35" y2="-7.62" width="0.4064" layer="94"/>
-<text x="-6.35" y="10.795" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.35" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="7.62" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="2" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="3" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="4" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="5" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="6" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="PINHD-1X6" urn="urn:adsk.eagle:component:22533/3" prefix="JP" uservalue="yes" library_version="3">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="A" symbol="PINHD6" x="0" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="1X06">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-<connect gate="A" pin="4" pad="4"/>
-<connect gate="A" pin="5" pad="5"/>
-<connect gate="A" pin="6" pad="6"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22472/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="/90" package="1X06/90">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-<connect gate="A" pin="4" pad="4"/>
-<connect gate="A" pin="5" pad="5"/>
-<connect gate="A" pin="6" pad="6"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22475/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -31458,7 +31296,6 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4K7"/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
-<part name="X1" library="con-phoenix-350" library_urn="urn:adsk.eagle:library:174" deviceset="1751251" device="" package3d_urn="urn:adsk.eagle:package:9394/1"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -31480,11 +31317,8 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <part name="IC1" library="PM8834" deviceset="PM8834" device="-SO08N"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10nF X7R"/>
+<part name="C6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF X7R"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="C7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
-<part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="Q1" library="IRF3205SPBF" deviceset="IRF3205SPBF" device=""/>
 <part name="Q2" library="IRF3205SPBF" deviceset="IRF3205SPBF" device=""/>
@@ -31493,11 +31327,8 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <part name="IC2" library="PM8834" deviceset="PM8834" device="-SO08N"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10nF X7R"/>
+<part name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF X7R"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="C9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
-<part name="GND22" library="supply1" deviceset="GND" device=""/>
-<part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="Q3" library="IRF3205SPBF" deviceset="IRF3205SPBF" device=""/>
 <part name="Q4" library="IRF3205SPBF" deviceset="IRF3205SPBF" device=""/>
@@ -31511,10 +31342,7 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT54S" device="" package3d_urn="urn:adsk.eagle:package:43389/2"/>
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="X3" library="con-phoenix-350" library_urn="urn:adsk.eagle:library:174" deviceset="1751251" device="" package3d_urn="urn:adsk.eagle:package:9394/1"/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
-<part name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="X4" library="con-phoenix-350" library_urn="urn:adsk.eagle:library:174" deviceset="1751277" device="" package3d_urn="urn:adsk.eagle:package:9396/1"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
@@ -31533,8 +31361,6 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <part name="R20" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R21" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="R22" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -31608,20 +31434,18 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <part name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="RGBLED" device="5050" package3d_urn="urn:adsk.eagle:package:6240865/1"/>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="RJ11-6" device="" package3d_urn="urn:adsk.eagle:package:38232/1" value="RJ11"/>
 <part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R37" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R38" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="R37" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
+<part name="R38" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1K"/>
 <part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="T3" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-NPN-" device="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:28748/2" technology="BCF29" value="SS8050-G"/>
 <part name="C14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="GND49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT54S" device="" package3d_urn="urn:adsk.eagle:package:43389/2"/>
 <part name="GND50" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R41" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1K"/>
+<part name="R41" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="GND51" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2"/>
 <part name="Q9" library="SparkFun" deviceset="MOSFET-NCHANNEL" device="SMD" value="BSS138"/>
 <part name="Q11" library="SparkFun" deviceset="MOSFET-NCHANNEL" device="SMD" value="BSS138"/>
 <part name="Q12" library="SparkFun" deviceset="MOSFET-NCHANNEL" device="SMD" value="BSS138"/>
@@ -31632,6 +31456,25 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <part name="GND52" library="supply1" deviceset="GND" device=""/>
 <part name="GND53" library="supply1" deviceset="GND" device=""/>
 <part name="GND54" library="supply1" deviceset="GND" device=""/>
+<part name="C15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
+<part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
+<part name="R46" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10R"/>
+<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="+3V23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT54S" device="" package3d_urn="urn:adsk.eagle:package:43389/2"/>
+<part name="+3V24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="GND55" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R47" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="X">
+<variant name="co" populate="no"/>
+</part>
+<part name="GND56" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R48" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1K"/>
+<part name="Q13" library="SparkFun" deviceset="MOSFET-NCHANNEL" device="SMD" value="BSS138"/>
+<part name="X5" library="con-phoenix-350" library_urn="urn:adsk.eagle:library:174" deviceset="1751280" device="" package3d_urn="urn:adsk.eagle:package:9436/1"/>
+<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
+<part name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 </parts>
 <sheets>
 <sheet>
@@ -32220,10 +32063,6 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <instance part="P+16" gate="1" x="312.42" y="63.5" smashed="yes">
 <attribute name="VALUE" x="309.88" y="58.42" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="T3" gate="G$1" x="350.52" y="45.72" smashed="yes">
-<attribute name="NAME" x="337.82" y="43.18" size="1.778" layer="95"/>
-<attribute name="VALUE" x="337.82" y="40.64" size="1.778" layer="96"/>
-</instance>
 <instance part="C14" gate="G$1" x="327.66" y="40.64" smashed="yes">
 <attribute name="NAME" x="329.184" y="41.021" size="1.778" layer="95"/>
 <attribute name="VALUE" x="329.184" y="35.941" size="1.778" layer="96"/>
@@ -32250,10 +32089,6 @@ Commonly found on CAT3 devices and some Microchip programmers.
 </instance>
 <instance part="P+17" gate="1" x="335.28" y="71.12" smashed="yes">
 <attribute name="VALUE" x="332.74" y="66.04" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="JP5" gate="A" x="66.04" y="-137.16" smashed="yes">
-<attribute name="NAME" x="59.69" y="-126.365" size="1.778" layer="95"/>
-<attribute name="VALUE" x="59.69" y="-147.32" size="1.778" layer="96"/>
 </instance>
 <instance part="Q9" gate="G$1" x="-7.62" y="-17.78" smashed="yes">
 <attribute name="NAME" x="-12.446" y="-21.59" size="1.778" layer="95" rot="R90"/>
@@ -32290,6 +32125,49 @@ Commonly found on CAT3 devices and some Microchip programmers.
 </instance>
 <instance part="GND54" gate="1" x="2.54" y="-48.26" smashed="yes">
 <attribute name="VALUE" x="0" y="-50.8" size="1.778" layer="96"/>
+</instance>
+<instance part="C15" gate="G$1" x="424.18" y="40.64" smashed="yes">
+<attribute name="NAME" x="425.704" y="41.021" size="1.778" layer="95"/>
+<attribute name="VALUE" x="425.704" y="35.941" size="1.778" layer="96"/>
+</instance>
+<instance part="R6" gate="G$1" x="424.18" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="422.6814" y="49.53" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="427.482" y="49.53" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R46" gate="G$1" x="396.24" y="45.72" smashed="yes">
+<attribute name="NAME" x="392.43" y="47.2186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="392.43" y="42.418" size="1.778" layer="96"/>
+</instance>
+<instance part="GND9" gate="1" x="424.18" y="27.94" smashed="yes">
+<attribute name="VALUE" x="421.64" y="25.4" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V23" gate="G$1" x="424.18" y="63.5" smashed="yes">
+<attribute name="VALUE" x="421.64" y="58.42" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D3" gate="G$1" x="403.86" y="53.34" smashed="yes" rot="MR90">
+<attribute name="NAME" x="405.8666" y="54.102" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="399.8976" y="49.022" size="1.778" layer="96" rot="MR90"/>
+</instance>
+<instance part="+3V24" gate="G$1" x="403.86" y="63.5" smashed="yes">
+<attribute name="VALUE" x="401.32" y="58.42" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND55" gate="1" x="403.86" y="27.94" smashed="yes">
+<attribute name="VALUE" x="401.32" y="25.4" size="1.778" layer="96"/>
+</instance>
+<instance part="R47" gate="G$1" x="388.62" y="38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="387.1214" y="34.29" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="391.922" y="34.29" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND56" gate="1" x="388.62" y="27.94" smashed="yes">
+<attribute name="VALUE" x="386.08" y="25.4" size="1.778" layer="96"/>
+</instance>
+<instance part="R48" gate="G$1" x="416.56" y="45.72" smashed="yes">
+<attribute name="NAME" x="412.75" y="47.2186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="412.75" y="42.418" size="1.778" layer="96"/>
+</instance>
+<instance part="Q13" gate="G$1" x="353.06" y="45.72" smashed="yes">
+<attribute name="NAME" x="348.234" y="41.91" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="358.648" y="40.386" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -32424,6 +32302,16 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <pinref part="+3V22" gate="G$1" pin="+3V3"/>
 <wire x1="-2.54" y1="15.24" x2="-2.54" y2="17.78" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="+3V23" gate="G$1" pin="+3V3"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="424.18" y1="60.96" x2="424.18" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D3" gate="G$1" pin="C2"/>
+<wire x1="403.86" y1="58.42" x2="403.86" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="+3V24" gate="G$1" pin="+3V3"/>
+</segment>
 </net>
 <net name="GND" class="2">
 <segment>
@@ -32475,7 +32363,6 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <wire x1="55.88" y1="-132.08" x2="55.88" y2="-144.78" width="0.1524" layer="91"/>
 <junction x="55.88" y="-132.08"/>
 <pinref part="GND27" gate="1" pin="GND"/>
-<pinref part="JP5" gate="A" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND36" gate="1" pin="GND"/>
@@ -32580,9 +32467,9 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <pinref part="GND50" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="T3" gate="G$1" pin="E"/>
 <wire x1="353.06" y1="33.02" x2="353.06" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="GND51" gate="1" pin="GND"/>
+<pinref part="Q13" gate="G$1" pin="S"/>
 </segment>
 <segment>
 <pinref part="Q9" gate="G$1" pin="S"/>
@@ -32598,6 +32485,21 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <pinref part="Q12" gate="G$1" pin="S"/>
 <wire x1="2.54" y1="-43.18" x2="2.54" y2="-45.72" width="0.1524" layer="91"/>
 <pinref part="GND54" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND9" gate="1" pin="GND"/>
+<pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="424.18" y1="30.48" x2="424.18" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D3" gate="G$1" pin="A1"/>
+<wire x1="403.86" y1="48.26" x2="403.86" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="GND55" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R47" gate="G$1" pin="1"/>
+<wire x1="388.62" y1="33.02" x2="388.62" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="GND56" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="TXD0" class="0">
@@ -32642,7 +32544,6 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <segment>
 <wire x1="63.5" y1="-139.7" x2="48.26" y2="-139.7" width="0.1524" layer="91"/>
 <label x="48.26" y="-139.7" size="1.778" layer="95"/>
-<pinref part="JP5" gate="A" pin="5"/>
 </segment>
 <segment>
 <pinref part="R43" gate="G$1" pin="1"/>
@@ -32665,7 +32566,6 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <segment>
 <wire x1="48.26" y1="-142.24" x2="63.5" y2="-142.24" width="0.1524" layer="91"/>
 <label x="48.26" y="-142.24" size="1.778" layer="95"/>
-<pinref part="JP5" gate="A" pin="6"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="CTS"/>
@@ -32713,6 +32613,17 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <label x="91.44" y="63.5" size="1.778" layer="95"/>
 <pinref part="U4" gate="G$1" pin="IO25"/>
 <wire x1="91.44" y1="63.5" x2="101.6" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C15" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="424.18" y1="45.72" x2="424.18" y2="48.26" width="0.1524" layer="91"/>
+<junction x="424.18" y="45.72"/>
+<wire x1="424.18" y1="45.72" x2="429.26" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="424.18" y1="45.72" x2="424.18" y2="43.18" width="0.1524" layer="91"/>
+<label x="429.26" y="45.72" size="1.778" layer="95"/>
+<pinref part="R48" gate="G$1" pin="2"/>
+<wire x1="421.64" y1="45.72" x2="424.18" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INP1" class="0">
@@ -33001,7 +32912,6 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <segment>
 <wire x1="48.26" y1="-129.54" x2="63.5" y2="-129.54" width="0.1524" layer="91"/>
 <label x="48.26" y="-129.54" size="1.778" layer="95"/>
-<pinref part="JP5" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="RXD0" class="0">
@@ -33101,26 +33011,25 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <pinref part="D4" gate="G$1" pin="C1A2"/>
 <wire x1="337.82" y1="55.88" x2="340.36" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="45.72" x2="340.36" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="T3" gate="G$1" pin="B"/>
-<wire x1="340.36" y1="45.72" x2="347.98" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="45.72" x2="345.44" y2="45.72" width="0.1524" layer="91"/>
 <junction x="340.36" y="45.72"/>
+<pinref part="Q13" gate="G$1" pin="G"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="T3" gate="G$1" pin="C"/>
 <pinref part="R41" gate="G$1" pin="1"/>
 <wire x1="353.06" y1="50.8" x2="353.06" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="53.34" x2="353.06" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="53.34" x2="358.14" y2="53.34" width="0.1524" layer="91"/>
 <junction x="353.06" y="53.34"/>
+<pinref part="Q13" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="RXD" class="0">
 <segment>
 <wire x1="63.5" y1="-134.62" x2="48.26" y2="-134.62" width="0.1524" layer="91"/>
 <label x="48.26" y="-134.62" size="1.778" layer="95"/>
-<pinref part="JP5" gate="A" pin="3"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="RXD"/>
@@ -33133,7 +33042,6 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <segment>
 <wire x1="48.26" y1="-137.16" x2="63.5" y2="-137.16" width="0.1524" layer="91"/>
 <label x="48.26" y="-137.16" size="1.778" layer="95"/>
-<pinref part="JP5" gate="A" pin="4"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="TXD"/>
@@ -33205,6 +33113,28 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <label x="-17.78" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="R46" gate="G$1" pin="1"/>
+<wire x1="391.16" y1="45.72" x2="388.62" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="R47" gate="G$1" pin="2"/>
+<wire x1="388.62" y1="45.72" x2="378.46" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="43.18" x2="388.62" y2="45.72" width="0.1524" layer="91"/>
+<junction x="388.62" y="45.72"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="R46" gate="G$1" pin="2"/>
+<wire x1="401.32" y1="45.72" x2="408.94" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="C1A2"/>
+<wire x1="406.4" y1="53.34" x2="408.94" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="408.94" y1="53.34" x2="408.94" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="R48" gate="G$1" pin="1"/>
+<wire x1="408.94" y1="45.72" x2="411.48" y2="45.72" width="0.1524" layer="91"/>
+<junction x="408.94" y="45.72"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -33240,18 +33170,6 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <instance part="GND2" gate="1" x="15.24" y="35.56" smashed="yes">
 <attribute name="VALUE" x="12.7" y="33.02" size="1.778" layer="96"/>
 </instance>
-<instance part="X1" gate="-1" x="-12.7" y="58.42" smashed="yes" rot="R180">
-<attribute name="NAME" x="-13.97" y="59.309" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-26.67" y="59.309" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="X1" gate="-2" x="-12.7" y="53.34" smashed="yes" rot="R180">
-<attribute name="NAME" x="-13.97" y="54.229" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-26.67" y="54.229" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="X1" gate="-3" x="-12.7" y="48.26" smashed="yes" rot="R180">
-<attribute name="NAME" x="-13.97" y="49.149" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-26.67" y="49.149" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="C10" gate="G$1" x="35.56" y="91.44" smashed="yes">
 <attribute name="NAME" x="37.084" y="91.821" size="1.778" layer="95"/>
 <attribute name="VALUE" x="37.084" y="86.741" size="1.778" layer="96"/>
@@ -33279,18 +33197,6 @@ Commonly found on CAT3 devices and some Microchip programmers.
 </instance>
 <instance part="GND26" gate="1" x="15.24" y="78.74" smashed="yes">
 <attribute name="VALUE" x="12.7" y="76.2" size="1.778" layer="96"/>
-</instance>
-<instance part="X3" gate="-1" x="-12.7" y="101.6" smashed="yes" rot="R180">
-<attribute name="NAME" x="-13.97" y="102.489" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-26.67" y="102.489" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="X3" gate="-2" x="-12.7" y="96.52" smashed="yes" rot="R180">
-<attribute name="NAME" x="-13.97" y="97.409" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-26.67" y="97.409" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="X3" gate="-3" x="-12.7" y="91.44" smashed="yes" rot="R180">
-<attribute name="NAME" x="-13.97" y="92.329" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-26.67" y="92.329" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND28" gate="1" x="-7.62" y="35.56" smashed="yes">
 <attribute name="VALUE" x="-10.16" y="33.02" size="1.778" layer="96"/>
@@ -33320,6 +33226,30 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <attribute name="NAME" x="24.13" y="54.8386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="24.13" y="50.038" size="1.778" layer="96"/>
 </instance>
+<instance part="X5" gate="-1" x="-12.7" y="101.6" smashed="yes" rot="R180">
+<attribute name="NAME" x="-13.97" y="102.489" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-26.67" y="102.489" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="X5" gate="-2" x="-12.7" y="96.52" smashed="yes" rot="R180">
+<attribute name="NAME" x="-13.97" y="97.409" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-26.67" y="97.409" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="X5" gate="-3" x="-12.7" y="91.44" smashed="yes" rot="R180">
+<attribute name="NAME" x="-13.97" y="92.329" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-26.67" y="92.329" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="X5" gate="-4" x="-12.7" y="58.42" smashed="yes" rot="R180">
+<attribute name="NAME" x="-13.97" y="59.309" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-26.67" y="59.309" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="X5" gate="-5" x="-12.7" y="53.34" smashed="yes" rot="R180">
+<attribute name="NAME" x="-13.97" y="54.229" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-26.67" y="54.229" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="X5" gate="-6" x="-12.7" y="48.26" smashed="yes" rot="R180">
+<attribute name="NAME" x="-13.97" y="49.149" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-26.67" y="49.149" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -33348,14 +33278,14 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <segment>
 <wire x1="-10.16" y1="48.26" x2="-7.62" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="48.26" x2="-7.62" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-3" pin="K"/>
 <pinref part="GND28" gate="1" pin="GND"/>
+<pinref part="X5" gate="-6" pin="K"/>
 </segment>
 <segment>
 <wire x1="-10.16" y1="91.44" x2="-7.62" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="91.44" x2="-7.62" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="X3" gate="-3" pin="K"/>
 <pinref part="GND29" gate="1" pin="GND"/>
+<pinref part="X5" gate="-3" pin="K"/>
 </segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
@@ -33394,35 +33324,35 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="53.34" x2="0" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-2" pin="K"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="0" y1="53.34" x2="-10.16" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="0" y1="50.8" x2="0" y2="53.34" width="0.1524" layer="91"/>
 <junction x="0" y="53.34"/>
+<pinref part="X5" gate="-5" pin="K"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <wire x1="-10.16" y1="58.42" x2="-7.62" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-1" pin="K"/>
+<pinref part="X5" gate="-4" pin="K"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="96.52" x2="0" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="X3" gate="-2" pin="K"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="0" y1="96.52" x2="-10.16" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="0" y1="93.98" x2="0" y2="96.52" width="0.1524" layer="91"/>
 <junction x="0" y="96.52"/>
+<pinref part="X5" gate="-2" pin="K"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
 <wire x1="-10.16" y1="101.6" x2="-7.62" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="101.6" x2="-7.62" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="X3" gate="-1" pin="K"/>
+<pinref part="X5" gate="-1" pin="K"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -33604,16 +33534,6 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <instance part="GND15" gate="1" x="-5.08" y="7.62" smashed="yes">
 <attribute name="VALUE" x="-7.62" y="5.08" size="1.778" layer="96"/>
 </instance>
-<instance part="C7" gate="G$1" x="-17.78" y="17.78" smashed="yes">
-<attribute name="NAME" x="-16.256" y="18.161" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-16.256" y="13.081" size="1.778" layer="96"/>
-</instance>
-<instance part="GND16" gate="1" x="-17.78" y="7.62" smashed="yes">
-<attribute name="VALUE" x="-20.32" y="5.08" size="1.778" layer="96"/>
-</instance>
-<instance part="P+2" gate="1" x="-17.78" y="25.4" smashed="yes">
-<attribute name="VALUE" x="-20.32" y="20.32" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="P+3" gate="1" x="-5.08" y="25.4" smashed="yes">
 <attribute name="VALUE" x="-7.62" y="20.32" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -33648,16 +33568,6 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <instance part="GND21" gate="1" x="132.08" y="7.62" smashed="yes">
 <attribute name="VALUE" x="129.54" y="5.08" size="1.778" layer="96"/>
 </instance>
-<instance part="C9" gate="G$1" x="119.38" y="17.78" smashed="yes">
-<attribute name="NAME" x="120.904" y="18.161" size="1.778" layer="95"/>
-<attribute name="VALUE" x="120.904" y="13.081" size="1.778" layer="96"/>
-</instance>
-<instance part="GND22" gate="1" x="119.38" y="7.62" smashed="yes">
-<attribute name="VALUE" x="116.84" y="5.08" size="1.778" layer="96"/>
-</instance>
-<instance part="P+5" gate="1" x="119.38" y="25.4" smashed="yes">
-<attribute name="VALUE" x="116.84" y="20.32" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="P+6" gate="1" x="132.08" y="25.4" smashed="yes">
 <attribute name="VALUE" x="129.54" y="20.32" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -33674,14 +33584,6 @@ Commonly found on CAT3 devices and some Microchip programmers.
 </instance>
 <instance part="GND24" gate="1" x="233.68" y="0" smashed="yes">
 <attribute name="VALUE" x="231.14" y="-2.54" size="1.778" layer="96"/>
-</instance>
-<instance part="R11" gate="G$1" x="38.1" y="40.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="36.6014" y="36.83" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="41.402" y="36.83" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R12" gate="G$1" x="30.48" y="40.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="28.9814" y="36.83" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="33.782" y="36.83" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="X4" gate="-1" x="160.02" y="83.82" smashed="yes">
 <attribute name="NAME" x="161.29" y="82.931" size="1.778" layer="95"/>
@@ -33706,13 +33608,13 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <instance part="P+7" gate="1" x="157.48" y="86.36" smashed="yes">
 <attribute name="VALUE" x="154.94" y="81.28" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R13" gate="G$1" x="167.64" y="10.16" smashed="yes" rot="R270">
-<attribute name="NAME" x="166.1414" y="6.35" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="170.942" y="6.35" size="1.778" layer="96" rot="R90"/>
+<instance part="R13" gate="G$1" x="167.64" y="40.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="169.1386" y="44.45" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="164.338" y="44.45" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R14" gate="G$1" x="175.26" y="10.16" smashed="yes" rot="R270">
-<attribute name="NAME" x="173.7614" y="6.35" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="178.562" y="6.35" size="1.778" layer="96" rot="R90"/>
+<instance part="R14" gate="G$1" x="175.26" y="40.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="176.7586" y="44.45" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="171.958" y="44.45" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R19" gate="G$1" x="160.02" y="10.16" smashed="yes" rot="R270">
 <attribute name="NAME" x="158.5214" y="6.35" size="1.778" layer="95" rot="R90"/>
@@ -33727,12 +33629,6 @@ Commonly found on CAT3 devices and some Microchip programmers.
 </instance>
 <instance part="GND33" gate="1" x="152.4" y="0" smashed="yes">
 <attribute name="VALUE" x="149.86" y="-2.54" size="1.778" layer="96"/>
-</instance>
-<instance part="GND34" gate="1" x="167.64" y="0" smashed="yes">
-<attribute name="VALUE" x="165.1" y="-2.54" size="1.778" layer="96"/>
-</instance>
-<instance part="GND35" gate="1" x="175.26" y="0" smashed="yes">
-<attribute name="VALUE" x="172.72" y="-2.54" size="1.778" layer="96"/>
 </instance>
 <instance part="R21" gate="G$1" x="22.86" y="10.16" smashed="yes" rot="R270">
 <attribute name="NAME" x="21.3614" y="6.35" size="1.778" layer="95" rot="R90"/>
@@ -33754,6 +33650,20 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <instance part="P+9" gate="1" x="38.1" y="50.8" smashed="yes">
 <attribute name="VALUE" x="35.56" y="45.72" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="P+2" gate="1" x="167.64" y="50.8" smashed="yes">
+<attribute name="VALUE" x="165.1" y="45.72" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+5" gate="1" x="175.26" y="50.8" smashed="yes">
+<attribute name="VALUE" x="172.72" y="45.72" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R11" gate="G$1" x="30.48" y="40.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="31.9786" y="44.45" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="27.178" y="44.45" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R12" gate="G$1" x="38.1" y="40.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="39.5986" y="44.45" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="34.798" y="44.45" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -33764,11 +33674,6 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <wire x1="48.26" y1="38.1" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+12V"/>
 <wire x1="45.72" y1="38.1" x2="45.72" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="-17.78" y1="20.32" x2="-17.78" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="P+2" gate="1" pin="+12V"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
@@ -33782,11 +33687,6 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <wire x1="182.88" y1="38.1" x2="182.88" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="20.32" x2="119.38" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="P+5" gate="1" pin="+12V"/>
-</segment>
-<segment>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="20.32" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="P+6" gate="1" pin="+12V"/>
@@ -33796,14 +33696,24 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <pinref part="P+7" gate="1" pin="+12V"/>
 </segment>
 <segment>
+<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="P+2" gate="1" pin="+12V"/>
+<wire x1="167.64" y1="48.26" x2="167.64" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="P+5" gate="1" pin="+12V"/>
+<wire x1="175.26" y1="48.26" x2="175.26" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
 <pinref part="P+8" gate="1" pin="+12V"/>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="45.72" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="P+9" gate="1" pin="+12V"/>
-<wire x1="38.1" y1="48.26" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="45.72" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="2">
@@ -33817,11 +33727,6 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="-5.08" y1="12.7" x2="-5.08" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="GND16" gate="1" pin="GND"/>
-<pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="-17.78" y1="10.16" x2="-17.78" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="S"/>
@@ -33845,11 +33750,6 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <pinref part="GND21" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GND22" gate="1" pin="GND"/>
-<pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="10.16" x2="119.38" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="Q3" gate="G$1" pin="S"/>
 <wire x1="213.36" y1="15.24" x2="213.36" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="GND23" gate="1" pin="GND"/>
@@ -33868,16 +33768,6 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <pinref part="R20" gate="G$1" pin="2"/>
 <pinref part="GND33" gate="1" pin="GND"/>
 <wire x1="152.4" y1="2.54" x2="152.4" y2="5.08" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="5.08" x2="167.64" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="GND34" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="5.08" x2="175.26" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="GND35" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="R21" gate="G$1" pin="2"/>
@@ -33899,22 +33789,6 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <wire x1="160.02" y1="17.78" x2="142.24" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="15.24" x2="160.02" y2="17.78" width="0.1524" layer="91"/>
 <junction x="160.02" y="17.78"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="IN2"/>
-<pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="22.86" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="35.56" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="EN1"/>
-<wire x1="48.26" y1="27.94" x2="38.1" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="27.94" x2="38.1" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWM2" class="0">
@@ -34013,7 +33887,7 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <label x="142.24" y="27.94" size="1.778" layer="95"/>
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="27.94" x2="142.24" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="15.24" x2="167.64" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="35.56" x2="167.64" y2="27.94" width="0.1524" layer="91"/>
 <junction x="167.64" y="27.94"/>
 </segment>
 </net>
@@ -34024,8 +33898,24 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <label x="142.24" y="22.86" size="1.778" layer="95"/>
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="22.86" x2="185.42" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="15.24" x2="175.26" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="35.56" x2="175.26" y2="22.86" width="0.1524" layer="91"/>
 <junction x="175.26" y="22.86"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="EN1"/>
+<wire x1="48.26" y1="27.94" x2="38.1" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="27.94" x2="38.1" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="IN2"/>
+<wire x1="30.48" y1="22.86" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="22.86" x2="30.48" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
