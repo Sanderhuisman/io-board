@@ -25247,12 +25247,6 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 </package>
 </packages>
 <symbols>
-<symbol name="VCC2">
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="VCC" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 <symbol name="MOSFET-NCHANNEL">
 <wire x1="-3.6576" y1="2.413" x2="-3.6576" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="1.905" x2="-2.0066" y2="1.905" width="0.1524" layer="94"/>
@@ -25296,19 +25290,6 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="VCC" prefix="P+">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="VCC2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MOSFET-NCHANNEL" prefix="Q">
 <gates>
 <gate name="G$1" symbol="MOSFET-NCHANNEL" x="0" y="0"/>
@@ -29743,22 +29724,7 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <part name="Q3" library="SparkFun" deviceset="MOSFET-NCHANNEL" device="SMD" value="BSS138"/>
 <part name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="R16" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
-<part name="P+5" library="SparkFun" deviceset="VCC" device="" value="HV"/>
 <part name="+3V312" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:6240710/1"/>
-<part name="Q4" library="SparkFun" deviceset="MOSFET-NCHANNEL" device="SMD" value="BSS138"/>
-<part name="R17" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
-<part name="R18" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
-<part name="P+6" library="SparkFun" deviceset="VCC" device="" value="HV"/>
-<part name="+3V313" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:6240710/1"/>
-<part name="Q5" library="SparkFun" deviceset="MOSFET-NCHANNEL" device="SMD" value="BSS138"/>
-<part name="R19" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
-<part name="R20" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
-<part name="P+7" library="SparkFun" deviceset="VCC" device="" value="HV"/>
-<part name="+3V314" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="Q1" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="CRYSTAL" device="TC38H" package3d_urn="urn:adsk.eagle:package:12087/1"/>
 <part name="C14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="12pF"/>
@@ -29829,6 +29795,7 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <part name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2-REDUNDANT" package3d_urn="urn:adsk.eagle:package:40167/1"/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -30178,61 +30145,8 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <attribute name="NAME" x="232.6386" y="-19.05" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="227.838" y="-19.05" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="P+5" gate="1" x="231.14" y="-12.7" smashed="yes">
-<attribute name="VALUE" x="230.124" y="-9.144" size="1.778" layer="96"/>
-</instance>
 <instance part="+3V312" gate="G$1" x="215.9" y="-10.16" smashed="yes">
 <attribute name="VALUE" x="213.36" y="-15.24" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND32" gate="1" x="271.78" y="-38.1" smashed="yes">
-<attribute name="VALUE" x="269.24" y="-40.64" size="1.778" layer="96"/>
-</instance>
-<instance part="JP3" gate="A" x="279.4" y="-30.48" smashed="yes">
-<attribute name="NAME" x="273.05" y="-24.765" size="1.778" layer="95"/>
-<attribute name="VALUE" x="273.05" y="-38.1" size="1.778" layer="96"/>
-</instance>
-<instance part="Q4" gate="G$1" x="259.08" y="-30.48" smashed="yes" rot="R270">
-<attribute name="NAME" x="255.27" y="-25.654" size="1.778" layer="95"/>
-<attribute name="VALUE" x="253.746" y="-36.068" size="1.778" layer="96"/>
-</instance>
-<instance part="R17" gate="G$1" x="251.46" y="-22.86" smashed="yes" rot="R270">
-<attribute name="NAME" x="252.9586" y="-19.05" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="248.158" y="-19.05" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="R18" gate="G$1" x="266.7" y="-22.86" smashed="yes" rot="R270">
-<attribute name="NAME" x="268.1986" y="-19.05" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="263.398" y="-19.05" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="P+6" gate="1" x="266.7" y="-12.7" smashed="yes">
-<attribute name="VALUE" x="265.684" y="-9.144" size="1.778" layer="96"/>
-</instance>
-<instance part="+3V313" gate="G$1" x="251.46" y="-10.16" smashed="yes">
-<attribute name="VALUE" x="248.92" y="-15.24" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND33" gate="1" x="309.88" y="-38.1" smashed="yes">
-<attribute name="VALUE" x="307.34" y="-40.64" size="1.778" layer="96"/>
-</instance>
-<instance part="JP4" gate="A" x="317.5" y="-30.48" smashed="yes">
-<attribute name="NAME" x="311.15" y="-24.765" size="1.778" layer="95"/>
-<attribute name="VALUE" x="311.15" y="-38.1" size="1.778" layer="96"/>
-</instance>
-<instance part="Q5" gate="G$1" x="297.18" y="-30.48" smashed="yes" rot="R270">
-<attribute name="NAME" x="293.37" y="-25.654" size="1.778" layer="95"/>
-<attribute name="VALUE" x="291.846" y="-36.068" size="1.778" layer="96"/>
-</instance>
-<instance part="R19" gate="G$1" x="289.56" y="-22.86" smashed="yes" rot="R270">
-<attribute name="NAME" x="291.0586" y="-19.05" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="286.258" y="-19.05" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="R20" gate="G$1" x="304.8" y="-22.86" smashed="yes" rot="R270">
-<attribute name="NAME" x="306.2986" y="-19.05" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="301.498" y="-19.05" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="P+7" gate="1" x="304.8" y="-12.7" smashed="yes">
-<attribute name="VALUE" x="303.784" y="-9.144" size="1.778" layer="96"/>
-</instance>
-<instance part="+3V314" gate="G$1" x="289.56" y="-10.16" smashed="yes">
-<attribute name="VALUE" x="287.02" y="-15.24" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+4" gate="1" x="193.04" y="-10.16" smashed="yes">
 <attribute name="VALUE" x="190.5" y="-15.24" size="1.778" layer="96" rot="R90"/>
@@ -30366,6 +30280,9 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <attribute name="NAME" x="44.196" y="66.04" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="46.228" y="66.04" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
+<instance part="P+5" gate="1" x="231.14" y="-10.16" smashed="yes">
+<attribute name="VALUE" x="228.6" y="-15.24" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -30434,26 +30351,6 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <pinref part="R15" gate="G$1" pin="1"/>
 <pinref part="Q3" gate="G$1" pin="G"/>
 <pinref part="+3V312" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<wire x1="251.46" y1="-17.78" x2="251.46" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="-15.24" x2="251.46" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="-22.86" x2="259.08" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="-15.24" x2="251.46" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="251.46" y="-15.24"/>
-<pinref part="R17" gate="G$1" pin="1"/>
-<pinref part="Q4" gate="G$1" pin="G"/>
-<pinref part="+3V313" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<wire x1="289.56" y1="-17.78" x2="289.56" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="-15.24" x2="289.56" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="-22.86" x2="297.18" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="-15.24" x2="289.56" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="289.56" y="-15.24"/>
-<pinref part="R19" gate="G$1" pin="1"/>
-<pinref part="Q5" gate="G$1" pin="G"/>
-<pinref part="+3V314" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="VDD"/>
@@ -30543,18 +30440,6 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <wire x1="236.22" y1="-35.56" x2="236.22" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="3"/>
 <wire x1="236.22" y1="-33.02" x2="241.3" y2="-33.02" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND32" gate="1" pin="GND"/>
-<wire x1="271.78" y1="-35.56" x2="271.78" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="A" pin="3"/>
-<wire x1="271.78" y1="-33.02" x2="276.86" y2="-33.02" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND33" gate="1" pin="GND"/>
-<wire x1="309.88" y1="-35.56" x2="309.88" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="A" pin="3"/>
-<wire x1="309.88" y1="-33.02" x2="314.96" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND22" gate="1" pin="GND"/>
@@ -30752,41 +30637,6 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <pinref part="JP1" gate="A" pin="2"/>
 </segment>
 </net>
-<net name="HV" class="0">
-<segment>
-<wire x1="231.14" y1="-17.78" x2="231.14" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="R16" gate="G$1" pin="1"/>
-<pinref part="P+5" gate="1" pin="VCC"/>
-<pinref part="JP2" gate="A" pin="1"/>
-<wire x1="231.14" y1="-15.24" x2="231.14" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="-27.94" x2="236.22" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="-27.94" x2="236.22" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="-15.24" x2="231.14" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="231.14" y="-15.24"/>
-</segment>
-<segment>
-<wire x1="266.7" y1="-17.78" x2="266.7" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="R18" gate="G$1" pin="1"/>
-<pinref part="P+6" gate="1" pin="VCC"/>
-<pinref part="JP3" gate="A" pin="1"/>
-<wire x1="266.7" y1="-15.24" x2="266.7" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="-27.94" x2="271.78" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="-27.94" x2="271.78" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="-15.24" x2="266.7" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="266.7" y="-15.24"/>
-</segment>
-<segment>
-<wire x1="304.8" y1="-17.78" x2="304.8" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="R20" gate="G$1" pin="1"/>
-<pinref part="P+7" gate="1" pin="VCC"/>
-<pinref part="JP4" gate="A" pin="1"/>
-<wire x1="304.8" y1="-15.24" x2="304.8" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="-27.94" x2="309.88" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="-27.94" x2="309.88" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="-15.24" x2="304.8" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="304.8" y="-15.24"/>
-</segment>
-</net>
 <net name="LV1" class="0">
 <segment>
 <wire x1="218.44" y1="-30.48" x2="215.9" y2="-30.48" width="0.1524" layer="91"/>
@@ -30796,6 +30646,11 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <pinref part="Q3" gate="G$1" pin="S"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 <label x="210.82" y="-30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="IO16"/>
+<wire x1="160.02" y1="58.42" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
+<label x="154.94" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HV2" class="0">
@@ -30809,50 +30664,6 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <pinref part="JP2" gate="A" pin="2"/>
 </segment>
 </net>
-<net name="HV3" class="0">
-<segment>
-<wire x1="264.16" y1="-30.48" x2="266.7" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="-30.48" x2="276.86" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="-27.94" x2="266.7" y2="-30.48" width="0.1524" layer="91"/>
-<junction x="266.7" y="-30.48"/>
-<pinref part="Q4" gate="G$1" pin="D"/>
-<pinref part="R18" gate="G$1" pin="2"/>
-<pinref part="JP3" gate="A" pin="2"/>
-</segment>
-</net>
-<net name="HV4" class="0">
-<segment>
-<wire x1="302.26" y1="-30.48" x2="304.8" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="-30.48" x2="314.96" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="-27.94" x2="304.8" y2="-30.48" width="0.1524" layer="91"/>
-<junction x="304.8" y="-30.48"/>
-<pinref part="Q5" gate="G$1" pin="D"/>
-<pinref part="R20" gate="G$1" pin="2"/>
-<pinref part="JP4" gate="A" pin="2"/>
-</segment>
-</net>
-<net name="LV3" class="0">
-<segment>
-<wire x1="292.1" y1="-30.48" x2="289.56" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="-30.48" x2="287.02" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="-27.94" x2="289.56" y2="-30.48" width="0.1524" layer="91"/>
-<junction x="289.56" y="-30.48"/>
-<pinref part="Q5" gate="G$1" pin="S"/>
-<pinref part="R19" gate="G$1" pin="2"/>
-<label x="284.48" y="-30.48" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LV2" class="0">
-<segment>
-<wire x1="254" y1="-30.48" x2="251.46" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="-30.48" x2="248.92" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="-27.94" x2="251.46" y2="-30.48" width="0.1524" layer="91"/>
-<junction x="251.46" y="-30.48"/>
-<pinref part="Q4" gate="G$1" pin="S"/>
-<pinref part="R17" gate="G$1" pin="2"/>
-<label x="246.38" y="-30.48" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="LV0" class="0">
 <segment>
 <wire x1="180.34" y1="-30.48" x2="177.8" y2="-30.48" width="0.1524" layer="91"/>
@@ -30862,6 +30673,11 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <pinref part="Q2" gate="G$1" pin="S"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <label x="172.72" y="-30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="IO15"/>
+<wire x1="134.62" y1="30.48" x2="134.62" y2="43.18" width="0.1524" layer="91"/>
+<label x="134.62" y="30.48" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -30880,6 +30696,17 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <wire x1="0" y1="-76.2" x2="0" y2="-73.66" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="C"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<wire x1="231.14" y1="-17.78" x2="231.14" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="JP2" gate="A" pin="1"/>
+<wire x1="231.14" y1="-15.24" x2="231.14" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="-27.94" x2="236.22" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="-27.94" x2="236.22" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="-15.24" x2="231.14" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="231.14" y="-15.24"/>
+<pinref part="P+5" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="N$38" class="0">
