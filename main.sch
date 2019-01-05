@@ -29578,6 +29578,185 @@ Commonly found on CAT3 devices and some Microchip programmers.
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Sensors" urn="urn:adsk.eagle:library:534">
+<description>&lt;h3&gt;SparkFun Sensors&lt;/h3&gt;
+This library contains sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="DFN-6-2X2" urn="urn:adsk.eagle:footprint:39875/1" library_version="1">
+<description>&lt;h3&gt;6-Pin Dual-Flat No-Lead (DFN) (2.0 x 2.0 mm)&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://www.mouser.com/ds/2/588/ams_sl2560-e58-488842.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;
+&lt;li&gt;Pin Count: 6&lt;/li&gt;
+&lt;li&gt;Dimensions: 2.0 x 2.0 x 0.65 mm&lt;/li&gt;
+&lt;li&gt;Pitch: 0.65 mm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Devices Using:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TSL2561&lt;/li&gt;
+&lt;/ul&gt;</description>
+<circle x="-0.8382" y="1.3716" radius="0.1" width="0.3048" layer="21"/>
+<wire x1="-1" y1="1" x2="-1" y2="-1" width="0.127" layer="51"/>
+<wire x1="-1" y1="-1" x2="1" y2="-1" width="0.127" layer="51"/>
+<wire x1="1" y1="-1" x2="1" y2="1" width="0.127" layer="51"/>
+<wire x1="1" y1="1" x2="-1" y2="1" width="0.127" layer="51"/>
+<wire x1="-1" y1="1.0508" x2="1" y2="1.0508" width="0.127" layer="21"/>
+<wire x1="-1" y1="-1.0508" x2="1" y2="-1.0508" width="0.127" layer="21"/>
+<smd name="1" x="-0.775" y="0.65" dx="1.05" dy="0.3" layer="1" rot="R180"/>
+<smd name="2" x="-0.775" y="0" dx="1.05" dy="0.3" layer="1" roundness="100"/>
+<smd name="3" x="-0.775" y="-0.65" dx="1.05" dy="0.3" layer="1" roundness="100"/>
+<smd name="4" x="0.775" y="-0.65" dx="1.05" dy="0.3" layer="1" roundness="100"/>
+<smd name="5" x="0.775" y="0" dx="1.05" dy="0.3" layer="1" roundness="100"/>
+<smd name="6" x="0.775" y="0.65" dx="1.05" dy="0.3" layer="1" roundness="100"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+<package name="TMB-6" urn="urn:adsk.eagle:footprint:39876/1" library_version="1">
+<description>&lt;h3&gt;6-Pin TMB&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://www.mouser.com/ds/2/588/ams_sl2560-e58-488842.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;
+&lt;li&gt;Pin Count: 6&lt;/li&gt;
+&lt;li&gt;Area: 3.8 x 2.6 x 1.35 mm&lt;/li&gt;
+&lt;li&gt;Pitch: 0.9 mm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Devices Using:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TSL2561&lt;/li&gt;
+&lt;/ul&gt;</description>
+<circle x="-1.9" y="2.0206" radius="0.254" width="0" layer="21"/>
+<wire x1="-1.9" y1="1.3" x2="-1.9" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="-1.9" y1="-1.3" x2="1.9" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="1.9" y1="-1.3" x2="1.9" y2="1.3" width="0.127" layer="51"/>
+<wire x1="1.9" y1="1.3" x2="-1.9" y2="1.3" width="0.127" layer="51"/>
+<wire x1="-1.9" y1="1.5238" x2="1.9" y2="1.5238" width="0.2032" layer="21"/>
+<wire x1="-1.9" y1="-1.5238" x2="1.9" y2="-1.5238" width="0.2032" layer="21"/>
+<smd name="1" x="-1.8" y="0.95" dx="1.6" dy="0.7" layer="1"/>
+<smd name="2" x="-1.8" y="0" dx="1.6" dy="0.7" layer="1"/>
+<smd name="3" x="-1.8" y="-0.95" dx="1.6" dy="0.7" layer="1"/>
+<smd name="4" x="1.8" y="-0.95" dx="1.6" dy="0.7" layer="1"/>
+<smd name="5" x="1.8" y="0" dx="1.6" dy="0.7" layer="1"/>
+<smd name="6" x="1.8" y="0.95" dx="1.6" dy="0.7" layer="1"/>
+<text x="0" y="1.778" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="DFN-6-2X2" urn="urn:adsk.eagle:package:39967/1" type="box" library_version="1">
+<description>6-Pin Dual-Flat No-Lead (DFN) (2.0 x 2.0 mm)
+Datasheet
+Specifications:
+
+Pin Count: 6
+Dimensions: 2.0 x 2.0 x 0.65 mm
+Pitch: 0.65 mm
+
+Devices Using:
+
+TSL2561
+</description>
+<packageinstances>
+<packageinstance name="DFN-6-2X2"/>
+</packageinstances>
+</package3d>
+<package3d name="TMB-6" urn="urn:adsk.eagle:package:39968/1" type="box" library_version="1">
+<description>6-Pin TMB
+Datasheet
+Specifications:
+
+Pin Count: 6
+Area: 3.8 x 2.6 x 1.35 mm
+Pitch: 0.9 mm
+
+Devices Using:
+
+TSL2561
+</description>
+<packageinstances>
+<packageinstance name="TMB-6"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="TSL2561" urn="urn:adsk.eagle:symbol:39874/1" library_version="1">
+<description>&lt;h3&gt;TAOS TSL2561 Digital Luminosity (Light) Sensor&lt;/h3&gt;
+&lt;p&gt;The TSL2561 is a light-to-digital converter that transform light intensity to a digital signal output via I2C interface. The device combines one broadband photodiode (visible plus infrared) and one infrared-responding photodiode on a single CMOS integrated circuit capable of providing a near-photopic response over an effective 20-bit dynamic range (16-bit resolution). Two integrating ADCs convert the photodiode currents to a digital output that represents the irradiance measured on each channel. This digital output can be input to a microprocessor where illuminance (ambient light level) in lux is derived using an empirical formula to approximate the human eye response. The TSL2561 device supports a traditional level style interrupt that remains asserted until the firmware clears it.&lt;/p&gt;</description>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<pin name="ADDR" x="12.7" y="0" length="short" direction="in" rot="R180"/>
+<pin name="GND" x="12.7" y="-5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="INT" x="-10.16" y="-5.08" length="short" direction="out"/>
+<pin name="SCL" x="-10.16" y="5.08" length="short" direction="in"/>
+<pin name="SDA" x="-10.16" y="2.54" length="short"/>
+<pin name="VDD" x="12.7" y="5.08" length="short" direction="pwr" rot="R180"/>
+<text x="-7.62" y="7.874" size="1.778" layer="95" font="vector">&gt;Name</text>
+<text x="-7.62" y="-7.874" size="1.778" layer="96" font="vector" align="top-left">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TSL2561" urn="urn:adsk.eagle:component:40036/1" prefix="U" library_version="1">
+<description>&lt;h3&gt;TAOS TSL2561 Digital Luminosity (Light) Sensor&lt;/h3&gt;
+&lt;p&gt;The TSL2561 is a light-to-digital converter that transform light intensity to a digital signal output via I2C interface. The device combines one broadband photodiode (visible plus infrared) and one infrared-responding photodiode on a single CMOS integrated circuit capable of providing a near-photopic response over an effective 20-bit dynamic range (16-bit resolution). Two integrating ADCs convert the photodiode currents to a digital output that represents the irradiance measured on each channel. This digital output can be input to a microprocessor where illuminance (ambient light level) in lux is derived using an empirical formula to approximate the human eye response. The TSL2561 device supports a traditional level style interrupt that remains asserted until the firmware clears it.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.mouser.com/ds/2/588/ams_sl2560-e58-488842.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;SparkFun Products&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12055"&gt;SparkFun Luminosity Sensor Breakout - TSL2561&lt;/a&gt; (SEN-12055)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="TSL2561" x="0" y="0"/>
+</gates>
+<devices>
+<device name="FN" package="DFN-6-2X2">
+<connects>
+<connect gate="G$1" pin="ADDR" pad="2"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="INT" pad="5"/>
+<connect gate="G$1" pin="SCL" pad="4"/>
+<connect gate="G$1" pin="SDA" pad="6"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39967/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-11791"/>
+</technology>
+</technologies>
+</device>
+<device name="T" package="TMB-6">
+<connects>
+<connect gate="G$1" pin="ADDR" pad="2"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="INT" pad="5"/>
+<connect gate="G$1" pin="SCL" pad="4"/>
+<connect gate="G$1" pin="SDA" pad="6"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39968/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -29796,6 +29975,11 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="U3" library="SparkFun-Sensors" library_urn="urn:adsk.eagle:library:534" deviceset="TSL2561" device="T" package3d_urn="urn:adsk.eagle:package:39968/1"/>
+<part name="GND32" library="supply1" deviceset="GND" device=""/>
+<part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
+<part name="C23" library="resistor" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="GND33" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -31260,6 +31444,23 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <instance part="+3V320" gate="G$1" x="78.74" y="66.04" smashed="yes">
 <attribute name="VALUE" x="76.2" y="60.96" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="U3" gate="G$1" x="53.34" y="2.54" smashed="yes">
+<attribute name="NAME" x="45.72" y="10.414" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="45.72" y="-5.334" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="GND32" gate="1" x="68.58" y="-7.62" smashed="yes">
+<attribute name="VALUE" x="66.04" y="-10.16" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V1" gate="G$1" x="76.2" y="12.7" smashed="yes">
+<attribute name="VALUE" x="73.66" y="7.62" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C23" gate="G$1" x="76.2" y="2.54" smashed="yes">
+<attribute name="NAME" x="77.724" y="2.921" size="1.778" layer="95"/>
+<attribute name="VALUE" x="77.724" y="-2.159" size="1.778" layer="96"/>
+</instance>
+<instance part="GND33" gate="1" x="76.2" y="-7.62" smashed="yes">
+<attribute name="VALUE" x="73.66" y="-10.16" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -31290,6 +31491,21 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <junction x="73.66" y="53.34"/>
 <pinref part="GND44" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="ADDR"/>
+<wire x1="66.04" y1="2.54" x2="68.58" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="2.54" x2="68.58" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="GND"/>
+<wire x1="68.58" y1="-2.54" x2="68.58" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-2.54" x2="68.58" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="68.58" y="-2.54"/>
+<pinref part="GND32" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND33" gate="1" pin="GND"/>
+<pinref part="C23" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="-2.54" x2="76.2" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -31306,6 +31522,15 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <wire x1="78.74" y1="60.96" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="+3V320" gate="G$1" pin="+3V3"/>
 </segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="VDD"/>
+<wire x1="66.04" y1="7.62" x2="76.2" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="7.62" x2="76.2" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="+3V1" gate="G$1" pin="+3V3"/>
+<pinref part="C23" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="5.08" x2="76.2" y2="7.62" width="0.1524" layer="91"/>
+<junction x="76.2" y="7.62"/>
+</segment>
 </net>
 <net name="I2C_SDA" class="0">
 <segment>
@@ -31313,12 +31538,22 @@ Commonly found on CAT3 devices and some Microchip programmers.
 <wire x1="25.4" y1="48.26" x2="35.56" y2="48.26" width="0.1524" layer="91"/>
 <label x="25.4" y="48.26" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="33.02" y1="5.08" x2="43.18" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="SDA"/>
+<label x="33.02" y="5.08" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="I2C_SCL" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="SCL"/>
 <wire x1="35.56" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
 <label x="25.4" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="43.18" y1="7.62" x2="33.02" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="SCL"/>
+<label x="33.02" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TEMP_ALERT" class="0">
