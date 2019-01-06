@@ -29819,8 +29819,6 @@ TSL2561
 <part name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4K7"/>
 <part name="+3V39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V310" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="R29" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4K7"/>
-<part name="+3V320" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -30776,13 +30774,6 @@ TSL2561
 <wire x1="157.48" y1="68.58" x2="149.86" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="TEMP_ALERT" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="IO21"/>
-<wire x1="149.86" y1="73.66" x2="157.48" y2="73.66" width="0.1524" layer="91"/>
-<label x="154.94" y="73.66" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="INP2" class="0">
 <segment>
 <label x="91.44" y="53.34" size="1.778" layer="95"/>
@@ -31437,13 +31428,6 @@ TSL2561
 <instance part="GND44" gate="1" x="73.66" y="38.1" smashed="yes">
 <attribute name="VALUE" x="71.12" y="35.56" size="1.778" layer="96"/>
 </instance>
-<instance part="R29" gate="G$1" x="78.74" y="55.88" smashed="yes" rot="R90">
-<attribute name="NAME" x="77.2414" y="52.07" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="82.042" y="52.07" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="+3V320" gate="G$1" x="78.74" y="66.04" smashed="yes">
-<attribute name="VALUE" x="76.2" y="60.96" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="U3" gate="G$1" x="53.34" y="2.54" smashed="yes">
 <attribute name="NAME" x="45.72" y="10.414" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="45.72" y="-5.334" size="1.778" layer="96" font="vector" align="top-left"/>
@@ -31518,11 +31502,6 @@ TSL2561
 <junction x="17.78" y="55.88"/>
 </segment>
 <segment>
-<pinref part="R29" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="60.96" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="+3V320" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
 <pinref part="U3" gate="G$1" pin="VDD"/>
 <wire x1="66.04" y1="7.62" x2="76.2" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="7.62" x2="76.2" y2="10.16" width="0.1524" layer="91"/>
@@ -31554,17 +31533,6 @@ TSL2561
 <wire x1="43.18" y1="7.62" x2="33.02" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="SCL"/>
 <label x="33.02" y="7.62" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="TEMP_ALERT" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="ALERT"/>
-<wire x1="71.12" y1="48.26" x2="78.74" y2="48.26" width="0.1524" layer="91"/>
-<label x="81.28" y="48.26" size="1.778" layer="95"/>
-<pinref part="R29" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="48.26" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="48.26" x2="78.74" y2="50.8" width="0.1524" layer="91"/>
-<junction x="78.74" y="48.26"/>
 </segment>
 </net>
 </nets>
